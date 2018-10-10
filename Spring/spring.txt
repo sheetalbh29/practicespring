@@ -1,0 +1,6 @@
+create table Student(id number(20),name varchar2(20),password varchar2(20));
+create table StudentData(id number(20),name varchar2(20),age number(20),subject varchar2(20),hobby VARCHAR2(20));
+SELECT * FROM student;
+SELECT * FROM studentdata;
+
+insert into  Student values(10,'Dave ','d');
